@@ -1,0 +1,118 @@
+.products {
+    margin-top: 7rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.products_container .product_contant {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_contant .product1 {
+    margin-top: 5rem;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.product_contant .product1:hover {
+    box-shadow: var(--shadow);
+
+}
+
+.products_container .product-text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products .products_container .product-text h1 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Font);
+    color: var(--dark-gray);
+}
+
+.products .products_container .product-text h2 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Font);
+    color: var(--dark-gray);
+}
+
+.products .products_container .image3 img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+.products .products_container .product-text2 h1 {
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.products .products_container .product-text2 .stars .icon {
+    margin: 0 3px;
+    color: var(--secondary-color);
+}
+
+.products .products_container .discount {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    width: 100%;
+    margin-top: 5rem;
+    padding: 3rem 10rem;
+    box-shadow: var(--shadow);
+}
+
+.products .products_container .discount .discount-text h1 {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.products .products_container .discount .discount-text p {
+    color: var(--dark-gray);
+    text-align: center;
+    font-size: 20px;
+    margin: 1rem 0;
+}
+
+.products .products_container .discount .discount-text .btn a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--secondary-color);
+  transition: all 1s ease;
+}
+
+.products .products_container .discount .discount-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.products .products_container .discount .discount-text .btn .icon {
+  font-size: 35px;
+  transform: translate(0, 9px);
+  transition: all 1s ease;
+}
+
+.products .products_container .discount .discount-text .btn a:hover .icon {
+  transform: translate(10px, 9px);
+}
+
+.products .products_container .discount .discount-text .btn a:hover {
+  color: var(--dark-gray);
+}
+
+
+

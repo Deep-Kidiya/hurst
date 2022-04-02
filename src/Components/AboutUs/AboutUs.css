@@ -1,0 +1,164 @@
+
+.about {
+    width: 100%;
+}
+
+.Head-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Shopbg.png) no-repeat center center/cover;
+}
+
+.Head-text h1 {
+    color: var(--w);
+    font-size: 40px;
+}
+
+.head-bg {
+    background: var(--gray);
+}
+
+.about_container {
+    margin-bottom: 5rem;
+}
+
+.about .container .btn {
+    display: flex;
+    align-items: center;
+    transform: translateY(-40px);
+}
+
+.about .container .btn h1, h2 {
+   font-size: 20px;
+   color: var(--w);
+   font-weight: 600;
+    padding: 0 .5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.about .container .btn h1:hover {
+    color: var(--secondary-color);
+}
+
+.about .about_container .about-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5rem;
+    box-shadow: var(--shadow);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.about_container .about-box .img5 img {
+    border-radius: 20px 0 0 20px;
+}
+
+.about_container .about-box .text-box {
+    background: #F6F6F6;
+    position: absolute;
+    width: 800px;
+    left: 30%;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow:  0px 0px 25px 0px rgba(167, 167, 167, 0.5);
+}
+
+.about_container .about-box .text-box h1 {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 0 35px;
+    color: var(--dark-gray);
+}
+
+.about_container .about-box .text-box p {
+    font-size: 13px;
+    line-height: 1.2rem;
+    font-weight: 600;
+    padding: 0 0 35px;
+    color: var(--dark-gray);
+}
+
+.about_container .heading {
+    margin-top: 5rem;
+}
+
+.about_container .team-box {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+.about_container .team-box .team-card {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px rgba(238, 236, 236, 0.5);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.about_container .team-box .team-card .img6 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.about_container .team-box .team-card:hover {
+    box-shadow:  var(--shadow);
+}
+
+.about_container .team-box .team-card h1 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--dark-gray);
+    font-family: var(--Font);
+}
+
+.about_container .team-box .team-card h2 {
+    margin: .5rem 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--dark-gray);
+    opacity: 0.9;
+}
+
+.about_container .team-box .team-card p {
+    margin: 2rem 0;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--dark-gray);
+    opacity: 0.7;
+}
+
+.about_container .team-box .team-card .team-icon {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+.about_container .team-box .team-card .icon {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--dark-gray);
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.about_container .team-box .team-card .icon:hover {
+
+    color: var(--main-color);
+
+}

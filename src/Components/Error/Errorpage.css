@@ -1,0 +1,94 @@
+.error .container .btn {
+    display: flex;
+    align-items: center;
+    transform: translateY(-40px);
+}
+
+.error .container .btn h1, h2 {
+   font-size: 20px;
+   color: var(--w);
+   font-weight: 600;
+    padding: 0 .5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.error .container .btn h1:hover {
+    color: var(--secondary-color);
+}
+
+.error .error_contant {
+    padding: 1rem;
+    box-shadow: 0 0 21px 0 rgba(0, 0, 0, .1);
+    margin: 2rem 0 4rem;
+}
+
+.error_contant .error-box {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background: var(--gray);
+    padding: 2rem;
+}
+
+.error_contant .error-box h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight:600;
+    font-size: 10rem;
+    color: var(--main-color);
+}
+
+.error_contant .error-box h2 {
+    font-size: 20px;
+    font-weight:700;
+    color: var(--dark-gray);
+}
+
+.error_contant .error-box h3 {
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight:700;
+    color: var(--dark-gray);
+}
+
+.error_contant .error-box h4 {
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight:700;
+    color: var(--dark-gray);
+}
+
+.error_contant .error-box input {
+   padding: 0 3rem 0 0;
+   outline: none;
+   border: none;
+}
+
+.error_contant .error-box .inputbar .icon  {
+    color: var(--dark-gray);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.error_contant .error-box .inputbar .icon:hover  {
+    color: var(--main-color);
+
+}
+
+.error_contant .error-box .inputbar {
+   display: flex;
+   margin-top: 2rem;
+   justify-content: space-between;
+   padding: 1rem;
+   align-items: center;
+   background: var(--w);
+}
+
+.error_contant .error-box .btn {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+

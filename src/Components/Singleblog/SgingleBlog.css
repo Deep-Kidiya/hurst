@@ -1,0 +1,222 @@
+.singleblog .container .btn {
+    display: flex;
+    align-items: center;
+    transform: translateY(-40px);
+}
+
+.singleblog .container .btn h1, h2 {
+   font-size: 20px;
+   color: var(--w);
+   font-weight: 600;
+    padding: 0 .5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.singleblog .container .btn h1:hover {
+    color: var(--secondary-color);
+}
+
+.singleblog .singleblog_contant {
+    margin: 2rem 0;
+    padding: 2rem;
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.singleblog .singleblog_contant:hover {
+    box-shadow: var(--shadow);
+}
+
+.singleblog .singleblog_contant .img9 {
+    background: url(../Image/singleblog.png) no-repeat center center/cover;
+    padding: 15rem 10rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+}
+
+.singleblog .singleblog_contant .img9:hover {
+    box-shadow: var(--shadow);
+}
+
+.singleblog_contant .singleblog-text h1 {
+    font-family: var(--Font);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--dark-gray);
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.singleblog_contant .singleblog-text h1:hover {
+    color: var(--main-color);
+}
+
+.singleblog_contant .singleblog-text p {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--dark-gray);
+    margin-top: 1rem;
+    line-height: 1.3rem;
+}
+
+.singleblog_contant .social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray);
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.singleblog_contant .social-links .social-icons, .singleblog_contant .social-links .social-tag {
+    display: flex;
+    align-items: center;
+}
+
+.singleblog_contant .social-links .social-icons h2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--dark-gray);
+}
+
+.singleblog_contant .social-links .social-icons a {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark-gray);
+    opacity: .7;
+    margin: 0 .2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.singleblog_contant .social-links .social-icons a:hover {
+    color: var(--main-color);
+    opacity: 1;
+}
+
+.singleblog_contant .social-links .social-tag h2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--dark-gray);
+    opacity: .7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.singleblog_contant .social-links .social-tag h2.active {
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 1;
+    color: var(--dark-gray);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.singleblog_contant .social-links .social-tag h2:hover {
+    opacity: 1;
+    color: var(--main-color);
+}
+
+.singleblog-comment {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.singleblog-comment .singleblog-c {
+    margin: 0 1rem;
+}
+
+.singleblog-comment .singleblog-c h1 {
+   font-size: 16px;
+   font-weight: 700;
+   margin: 0;
+}
+
+.singleblog-comment .singleblog-c p {
+   font-size: 13px;
+   font-weight: 400;
+}
+
+.customer-comment .after1 {
+    position: relative;
+}
+
+.customer-comment .after1::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    left: 0;
+    bottom: -10px;
+    background: var(--dark-gray);
+    opacity: .3;
+}
+
+.customer-comment .comment-list {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-comment .comment-list .comment-text {
+    margin: 0 2rem;
+}
+
+.customer-comment .comment-list h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: var(--dark-gray);
+}
+
+.customer-comment .comment-list h3 {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    color: var(--dark-gray);
+    opacity: .5;
+}
+
+.customer-comment .comment-list.list1 {
+    margin: 1.5rem 2rem;
+}
+
+.singleblog-text .input-contant .inupt-items {
+    margin-top: 2rem;
+}
+
+.singleblog-text .input-contant .inupt-items input {
+    padding: 1rem 24rem 1rem 1rem;
+    margin-right: 1rem;
+    background: var(--gray);
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.singleblog-text .input-contant .inupt-items input:hover {
+    box-shadow: var(--shadow);
+}
+
+.singleblog-text .input-contant .inupt-items input.active {
+    padding: 1rem 61rem 5rem 1rem;
+    margin-top: 1rem;
+}
+
+.singleblog .container .btn button {
+    margin-top: 4rem;
+    background: var(--secondary-color);
+    color: var(--w);
+}

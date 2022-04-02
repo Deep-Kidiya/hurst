@@ -1,0 +1,133 @@
+.online {
+    margin-top: 7rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.products_container .product_contant {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_contant .product1 {
+    margin-top: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.product_contant .product1:hover {
+    box-shadow: var(--shadow);
+
+}
+
+.products_container .product-text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.online .products_container .product-text h1 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Font);
+    color: var(--dark-gray);
+}
+
+.online .products_container .product-text h2 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Font);
+    color: var(--dark-gray);
+}
+
+.online .products_container .image3 img {
+    width: 100%;
+}
+
+
+.online .products_container .product-text2 h1 {
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.online .products_container .product-text2 .stars .icon {
+    margin: 0 3px;
+    color: var(--secondary-color);
+}
+
+.online .nav-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.online .nav-line a {
+    padding: 0 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark-gray);
+}
+
+.online .nav-line a.active {
+    padding: 0 1rem;
+    color: var(--main-color);
+    position: relative;
+}
+
+.online .nav-line a.active::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: 1rem;
+    bottom: -10px;
+    background: var(--main-color);
+}
+
+.product_contant .image3 {
+    overflow: hidden;
+    position: relative;
+}
+
+.product_contant .image3 img {
+    border-radius: 10px;
+}
+
+.product_contant .img_contant {
+    position: absolute;
+    left: 7%;
+    bottom: -15%;
+    opacity: 0;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    background: var(--w);
+    padding: 1rem;
+    width: fit-content;
+    transition: all 0.7s ease;
+}
+
+.product_contant .product1:hover .img_contant {
+    opacity: 100%;
+    bottom: 6%;
+}
+
+.product_contant .img_contant .icon {
+    margin: 0 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--dark-gray);
+    transition: all 0.3s ease;
+}
+
+.product_contant .img_contant .icon:hover {
+    color: var(--main-color);
+}
