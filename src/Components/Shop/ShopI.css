@@ -234,3 +234,53 @@
 .shopi .container .btn h1:hover {
     color: var(--secondary-color);
 }
+
+@media screen and (max-width:1240px) {
+
+    .products_container .product_contant {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .products .products_container .product-text h1 {
+        font-size: 14px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:924px) {
+
+    .products_container .product_contant {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+    
+  
+  }
+  
+  @media screen and (max-width:600px) {
+  
+    .products_container .product_contant {
+        grid-template-columns: 1fr ;
+    }
+    
+    .products_container .top-nav {
+        padding: 0.5rem 1rem;
+        overflow: hidden;
+    }    
+    
+    .products_container .top-nav .right {
+        margin-left: 14px;
+    }
+
+
+  }

@@ -27,21 +27,23 @@ const Footer = () => {
                 </div>
                
                 <div className="footer_contant">
-                    <h1>ACCOUNTS</h1>
-                    <div className="footer-text1">
-                        <a href="#"><SiIcon className='icon' />My Account</a>
-                    </div>
-                    <div className="footer-text1">
-                        <a href="#"><SiIcon className='icon' />My Wishlist</a>   
-                    </div>
-                    <div className="footer-text1">
-                        <a href="#"><SiIcon className='icon' />My Cart</a>
-                    </div>
-                    <div className="footer-text1">
-                        <a href="#"><SiIcon className='icon' />Sign In</a>
-                    </div>
-                    <div className="footer-text1">
-                        <a href="#"><SiIcon className='icon' />Check out</a>
+                    <div className="m-1">
+                        <h1>ACCOUNTS</h1>
+                        <div className="footer-text1">
+                            <a href="#"><SiIcon className='icon' />My Account</a>
+                        </div>
+                        <div className="footer-text1">
+                            <a href="#"><SiIcon className='icon' />My Wishlist</a>   
+                        </div>
+                        <div className="footer-text1">
+                            <a href="#"><SiIcon className='icon' />My Cart</a>
+                        </div>
+                        <div className="footer-text1">
+                            <a href="#"><SiIcon className='icon' />Sign In</a>
+                        </div>
+                        <div className="footer-text1">
+                            <a href="#"><SiIcon className='icon' />Check out</a>
+                        </div>
                     </div>
                 </div>
                

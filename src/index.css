@@ -12,7 +12,7 @@
   --bg: #F3F1EF;
   --bg1: linear-gradient(#F3F1EF, #F3F1EF, #F3F1EF, #EBE7E4);
 
-  --shadow: 0px 5px 25px -1px rgba(189, 189, 189, 0.8);
+  --shadow: 1px 8px 15px rgb(0 0 0 / 12%);
 
   --Font: 'Bree Serif', serif;
 
@@ -102,4 +102,56 @@ button:hover::after {
 
 .container .btn h1, h2, a {
   text-decoration: none;
+}
+
+
+@media screen and (max-width:1240px) {
+
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+  }
+
+  .btn button {
+    padding: 14px 25px;
+    font-size: 1rem;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width:924px) {
+
+  .btn button {
+    padding: 12px 20px;
+    font-size: .8rem;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+  
+
+}
+
+@media screen and (max-width:600px) {
+
+  .container {
+    max-width: 332px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+  
+
 }

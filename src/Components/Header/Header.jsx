@@ -8,7 +8,7 @@ const Header = () => {
         <div className="container">
             <div className="header_container">
                 <div className="slider">
-                   <div className="image1">
+                   <div className="img1">
                         <img src={ME} alt="" />
                    </div>
                    <div className="text">
