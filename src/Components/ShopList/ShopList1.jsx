@@ -1,6 +1,7 @@
 import React from 'react'
 import './ShopList1.css'
 
+
 import Shoplist1 from '../Image/Shoplist1.png'
 import Shoplist2 from '../Image/Shoplist2.png'
 import Shoplist3 from '../Image/Shoplist3.png'
@@ -42,11 +43,11 @@ const ShopList1 = () => {
 
                                 <h2>Chair</h2>
                                 <h2 className='active'>Furniture</h2>
-                                <h3>Men Bag</h3>
-                                <h3>Shoes</h3>
-                                <h3>Watch</h3>
-                                <h3>T-Shirt</h3>
-                                <h3>Shirt</h3>
+                                <h4>Men Bag</h4>
+                                <h4>Shoes</h4>
+                                <h4>Watch</h4>
+                                <h4>T-Shirt</h4>
+                                <h4>Shirt</h4>
                                 <h2>Accessories</h2>
                                 <h2>Top Brands</h2>
                                 <h2>Jewelry</h2>

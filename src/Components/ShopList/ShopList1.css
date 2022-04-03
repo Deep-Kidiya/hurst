@@ -76,7 +76,7 @@
     color: var(--main-color);
 }
 
-.products_container .top-nav {
+.shoplist .products_container .top-nav {
     margin-top: 3rem;
     display: flex;
     justify-content: space-between;
@@ -319,7 +319,7 @@
 
 .products_container .shoplist_contant .shoplist-box {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     box-shadow: 0 0 25px 0 rgb(189 189 189 / 40%);
     padding: 1rem 1.5rem 1rem 1rem;
@@ -356,7 +356,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1rem;
 }
 
 .products_container .shoplist_contant .lines h1 {
@@ -364,6 +363,7 @@
     font-weight: 400;
     font-family: var(--Font);
     color: var(--dark-gray);
+    margin: 0;
 }
 
 .products_container .shoplist_contant h1 {
@@ -398,4 +398,182 @@
     color: var(--dark-gray);
     margin-top: 23px;
     position: relative;
+}
+
+.products_container .product-left .item_contant h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0.7rem 1.7rem;
+    color: var(--dark-gray);
+    opacity: .7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width:1240px) {
+
+    .products_container .top-left input {
+        outline: none;
+        border: none;
+        padding: 1.5rem 0.5rem 1.5rem 1rem;
+        border-radius: 10px;
+    }
+
+    .products_container .item_contant .size h2 {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 700;
+        background: var(--gray);
+    }
+    
+    .products_container .item_contant .size {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5rem 0;
+    }
+
+    .products_container .product-left .item_contant h3 {
+
+        margin: 0.7rem 0;
+
+    }
+ 
+    
+}
+
+
+@media screen and (max-width:924px) {
+
+    .products_container .contant-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .products_container .top-left input {
+        outline: none;
+        border: none;
+        padding: 1.5rem 29rem 1.5rem 1rem;
+        border-radius: 10px;
+    }
+
+    .products_container .item_contant .size {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0.5rem 0;
+    }
+
+    .products_container .item_contant .size h2 {
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        margin: 0 1.5rem 0 0;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        background: var(--gray);
+    }
+
+    
+    .products_container .contant-box .product-left {
+        position: absolute;
+        bottom: 10%;
+    }
+
+    .shoplist {
+        height: 390vh;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .products_container .shoplist_contant .shoplist-box {
+        display: grid;
+        align-items: flex-start;
+        justify-content: space-between;
+        box-shadow: 0 0 25px 0 rgb(189 189 189 / 40%);
+        padding: 1rem 1.5rem 1rem 1rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+        gap: 2rem;
+    }
+
+    .products_container .top-left input {
+        outline: none;
+        border: none;
+        padding: 1.5rem 6rem 1.5rem 1rem;
+        border-radius: 10px;
+    }
+
+    .products_container .item_contant .size h2 {
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        margin: 0 0.5rem 0 0;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        background: var(--gray);
+    }
+
+    .shoplist {
+        height: 530vh;
+        width: 100%;
+    }
+
+    .products_container .contant-box .product-left {
+        position: absolute;
+        bottom: 4%;
+    }
+
+    .products_container .top-nav .left h1 {
+        transition: all 0.3s ease;
+        cursor: pointer;
+        padding: 0 0.2rem;
+    }
+
+    .products_container .shoplist_contant .lines h1 {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: var(--Font);
+        color: var(--dark-gray);
+        margin: 0;
+    }
+
+    .products_container .shoplist_contant .img8 img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 0 rgb(189 189 189 / 20%);
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+    .shoplist .container .btn h1, h2 {
+        font-size: 13px;
+        color: var(--w);
+        font-weight: 600;
+        padding: 0 0.1rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .shoplist .container .btn {
+        display: flex;
+        align-items: center;
+        transform: translateY(-28px);
+    }
+
+
 }

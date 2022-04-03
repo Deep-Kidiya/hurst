@@ -162,3 +162,91 @@
     color: var(--main-color);
 
 }
+
+
+
+
+
+
+@media screen and (max-width:1240px) {
+
+
+    .about_container .about-box .text-box {
+        width: 601px;
+    }
+  
+    
+  
+  }
+  
+  
+  @media screen and (max-width:924px) {
+  
+    .about .about_container .about-box {
+        padding: 2rem 2rem 35rem;
+    }
+    
+    .about_container .about-box .text-box {
+        width: 601px;
+        left: 7%;
+        bottom: 5%;
+    }
+
+    .about_container .team-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+  }
+  
+  @media screen and (max-width:600px) {
+  
+    .about_container .team-box {
+        grid-template-columns: 1fr;
+    }
+  
+    .about_container .about-box .img5 img {
+        border-radius: 20px 0 0 20px;
+        width: 16rem;
+    }
+
+    .about_container .about-box .text-box {
+        width: 285px;
+        left: 7%;
+        bottom: 5%;
+    }
+
+    .about .about_container .about-box {
+        padding: 2rem 2rem 44rem;
+    }
+
+    .about_container .about-box .text-box p {
+        font-size: 11px;
+        line-height: 1rem;
+    }
+
+    
+    .Head-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 14vh;
+    }
+    
+    .Head-text h1 {
+        color: var(--w);
+        font-size: 16px;
+    }
+
+
+    .about .container .btn {
+        display: flex;
+        align-items: center;
+        transform: translateY(-28px);
+    }
+  
+    .about .container .btn h1, h2 {
+        font-size: 13px;
+ 
+    }
+
+  }

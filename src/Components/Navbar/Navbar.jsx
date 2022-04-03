@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
 
           <div className="nav_cart">
-            <a href="/error"><RiShoppingCart2Line className='icon' /></a>
+            <a href="/"><RiShoppingCart2Line className='icon' /></a>
           </div>
         </div>
       </div>

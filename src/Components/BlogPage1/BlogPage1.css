@@ -267,4 +267,32 @@
  
     }
 
+    
+    .Head-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 14vh;
+    }
+    
+    .Head-text h1 {
+        color: var(--w);
+        font-size: 16px;
+    }
+
+    .blogpage1 .container .btn h1, h2 {
+        font-size: 13px;
+        color: var(--w);
+        font-weight: 600;
+        padding: 0 0.5rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .blogpage1 .container .btn {
+        display: flex;
+        align-items: center;
+        transform: translateY(-28px);
+    }
+
 }

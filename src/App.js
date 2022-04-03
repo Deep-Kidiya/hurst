@@ -1,9 +1,4 @@
 import Navbar from './Components/Navbar/Navbar';
-import Header from './Components/Header/Header';
-import HeaderCards from './Components/Header/HeaderCards';
-import Products from './Components/Products/Products';
-import Online from './Components/Online/Online';
-import Blog from './Components/Blog/Blog';
 import Footer from './Components/Footer/Footer';
 import AboutUs from './Components/AboutUs/AboutUs';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"

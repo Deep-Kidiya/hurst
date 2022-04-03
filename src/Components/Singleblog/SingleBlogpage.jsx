@@ -8,6 +8,7 @@ import {TiSocialDribbble, TiSocialInstagram} from 'react-icons/ti'
 
 import sblog1 from '../Image/sblog1.png'
 import sblog2 from '../Image/sblog2.png'
+import singleblog from '../Image/singleblog.png'
 
 
 
@@ -27,7 +28,7 @@ const SingleBlogpage = () => {
             </div>  
             <div className="singleblog_contant">
                 <div className="img9">
-                    
+                    <img src={singleblog} alt="" />
                 </div>
                 <div className="singleblog-text">
                     <h1>FARNITURE DRAWING 2021</h1>
