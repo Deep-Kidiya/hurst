@@ -2,7 +2,7 @@ import React from 'react'
 import './Blog.css'
 
 
-import {AiOutlineArrowLeft, AiOutlineArrowRight, AiFillHeart} from 'react-icons/ai'
+import {AiFillHeart} from 'react-icons/ai'
 import {FaLayerGroup} from 'react-icons/fa'
 import {BsFillShareFill} from 'react-icons/bs'
 

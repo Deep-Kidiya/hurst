@@ -4,6 +4,10 @@
     height: 100vh;
 }
 
+.products .products_container {
+    margin: 10rem 0;
+}
+
 .products_container .product_contant {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;

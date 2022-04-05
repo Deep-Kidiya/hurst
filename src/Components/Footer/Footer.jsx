@@ -1,7 +1,6 @@
 import React from 'react'
 import './Footer.css'
 import {SiIcon} from 'react-icons/si'
-import Online2 from '../Image/Online2.png'
 
 
 
