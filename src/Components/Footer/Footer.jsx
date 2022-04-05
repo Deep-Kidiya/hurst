@@ -70,6 +70,9 @@ const Footer = () => {
                    
                 </div>
             </div>
+            <div className="end">
+                <h1>&copy; Deep Kidiya</h1>
+            </div>
         </div>
     </footer>
   )

@@ -112,9 +112,9 @@
     opacity: .3;
 }
 
-.customer-comment .comment-list {
+ .customer-comment .comment-list1 {
     margin-top: 3rem;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
@@ -123,19 +123,24 @@
     margin: 0 2rem;
 }
 
-.customer-comment .comment-list h2 {
+.customer-comment .comment-list h2, .customer-comment .comment-list1 h2 {
     font-size: 30px;
     margin: 0;
     padding: 0;
     color: var(--dark-gray);
 }
 
-.customer-comment .comment-list h3 {
+.customer-comment .comment-list h3, .customer-comment .comment-list1 h3 {
     font-size: 13px;
     margin: 0;
     padding: 0;
     color: var(--dark-gray);
     opacity: .5;
+}
+
+.bottom .customer-comment .comment-list1 p {
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .customer-comment .comment-list.list1 {
@@ -147,7 +152,7 @@
 }
 
 .singleblog-text .input-contant .inupt-items input {
-    padding: 1rem 16.5rem 1rem 1rem;
+    padding: 1rem 14.5rem 1rem 1rem;
     margin-right: 1rem;
     background: var(--gray);
     border: none;
@@ -160,7 +165,7 @@
 }
 
 .singleblog-text .input-contant .inupt-items input.active {
-    padding: 1rem 46rem 5rem 1rem;
+    padding: 1rem 42rem 5rem 1rem;
     margin-top: 1rem;
 }
 
@@ -170,6 +175,12 @@
     color: var(--w);
 }
 
+.singleblog-text .customer-comment .comment-list {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .singleproductpage .container .top {
     margin: 80px 0 30px;
@@ -328,7 +339,42 @@
 }
 
 
-@media screen and (max-width:1240px) {
+.tab-box {
+    display: none;
+}
+
+.tab-box.active {
+    display: block;
+}
+
+
+.singleblog-text {
+    box-shadow: 0 0 35px 0 rgba(93, 93, 93, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.singleproductpage .singleblog_contant .singleblog-text h1 {
+    font-family: var(--Font);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color: var(--dark-gray);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.singleproductpage .s-produc_contant .bottom {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 0;
+}
+
+
+
+
+
+@media screen and (max-width:1280px) {
 
     .singleproductpage .container .top {
         margin: 80px 0 30px;
@@ -431,6 +477,7 @@
 
     .singleproductpage .container .top .img12 img {
         width: 100%;
+        overflow: hidden;
         border-radius: 10px;
     }
 

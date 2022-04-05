@@ -22,36 +22,10 @@ const Products = () => {
                     <h1>Featured Products</h1>
                 </div>
                 <div className="product_contant">
-                    <div className="product1">
-                        <div className="image3">
-                            <img src={Product1} alt="" />
-                            <div className="img_contant">
-                                <FaRegHeart className='icon' /> |
-                                <FaSearchPlus className='icon' /> |
-                                <BiRefresh className='icon' /> |
-                                <MdOutlineAddShoppingCart className='icon' />
-
-                            </div>
-                        </div>
-                        <div className="product-text">
-                            <h1>DUMMY PRODUCT NAME</h1>
-                            <h2>Furniture</h2>
-                        </div>
-                        <div className="product-text product-text2 ">
-                            <h1>$ 56.20</h1>
-                            <div className="stars">
-                                <FaStar className='icon' />
-                                <FaStar className='icon' />
-                                <FaStar className='icon' />
-                                <FaStarHalfAlt className='icon' />
-                                <FaRegStar className='icon' />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="m-3">
+                    <a href="/singleproduct">
                         <div className="product1">
                             <div className="image3">
-                                <img src={Product2} alt="" />
+                                <img src={Product1} alt="" />
                                 <div className="img_contant">
                                     <FaRegHeart className='icon' /> |
                                     <FaSearchPlus className='icon' /> |
@@ -75,36 +49,69 @@ const Products = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="m-2">
-                        <div className="product1">
-                            <div className="image3">
-                                <img src={Product3} alt="" />
-                                <div className="img_contant">
-                                    <FaRegHeart className='icon' /> |
-                                    <FaSearchPlus className='icon' /> |
-                                    <BiRefresh className='icon' /> |
-                                    <MdOutlineAddShoppingCart className='icon' />
+                    </a>
+                    <a href="/singleproduct">
+                        <div className="m-3">
+                            <div className="product1">
+                                <div className="image3">
+                                    <img src={Product2} alt="" />
+                                    <div className="img_contant">
+                                        <FaRegHeart className='icon' /> |
+                                        <FaSearchPlus className='icon' /> |
+                                        <BiRefresh className='icon' /> |
+                                        <MdOutlineAddShoppingCart className='icon' />
 
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="product-text">
-                                <h1>DUMMY PRODUCT NAME</h1>
-                                <h2>Furniture</h2>
-                            </div>
-                            <div className="product-text product-text2 ">
-                                <h1>$ 56.20</h1>
-                                <div className="stars">
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStarHalfAlt className='icon' />
-                                    <FaRegStar className='icon' />
+                                <div className="product-text">
+                                    <h1>DUMMY PRODUCT NAME</h1>
+                                    <h2>Furniture</h2>
+                                </div>
+                                <div className="product-text product-text2 ">
+                                    <h1>$ 56.20</h1>
+                                    <div className="stars">
+                                        <FaStar className='icon' />
+                                        <FaStar className='icon' />
+                                        <FaStar className='icon' />
+                                        <FaStarHalfAlt className='icon' />
+                                        <FaRegStar className='icon' />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="m-1">
+                    </a>
+                    <a href="/singleproduct">
+                        <div className="m-2">
+                            <div className="product1">
+                                <div className="image3">
+                                    <img src={Product3} alt="" />
+                                    <div className="img_contant">
+                                        <FaRegHeart className='icon' /> |
+                                        <FaSearchPlus className='icon' /> |
+                                        <BiRefresh className='icon' /> |
+                                        <MdOutlineAddShoppingCart className='icon' />
+
+                                    </div>
+                                </div>
+                                <div className="product-text">
+                                    <h1>DUMMY PRODUCT NAME</h1>
+                                    <h2>Furniture</h2>
+                                </div>
+                                <div className="product-text product-text2 ">
+                                    <h1>$ 56.20</h1>
+                                    <div className="stars">
+                                        <FaStar className='icon' />
+                                        <FaStar className='icon' />
+                                        <FaStar className='icon' />
+                                        <FaStarHalfAlt className='icon' />
+                                        <FaRegStar className='icon' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                   <a href="/singleproduct">
+                   <div className="m-1">
                         <div className="product1">
                             <div className="image3">
                                 <img src={Product4} alt="" />
@@ -132,6 +139,7 @@ const Products = () => {
                             </div>
                         </div>
                     </div>
+                   </a>
                    
                     
              
